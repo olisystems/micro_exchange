@@ -1,4 +1,7 @@
 # Micro Exchange
+
+## Description
+
 As part of my master thesis I want to include a simple token micro-economy. I like to do a simple simulation where value is transferred between token owners to buy or sell a set of 5 different products. Basically what I want is to make an example with 5 to 10 different "agents" where each of them initiate with different amounts of tokens, something between 100 and 100000 tokens, after this I like to randomly set them lose to transact these values from one to another for a period of one day making transfers every minute for example. After the day is complete, I like to see statistics on a graph, then run it again for a following day and compare results. These are some of the parameters:
 
 Number of agents 10 (each agent should have a name)
@@ -11,11 +14,6 @@ Token price = 1cent
 
 To start this I am using a tutorial from MESA which is very close to what I need to do. Part of the code is here and can be used. It just needs to be modified a little.
 
-## Description
-
-The current project creates hashes of the user offers using [Merkletree.js](https://github.com/miguelmota/merkletreejs#documentation) and stores them on [Volta](https://energyweb.atlassian.net/wiki/spaces/EWF/pages/702677023/Chain%3A+Volta+Test+Network) test network.
-
-
 
 ## Getting Started
 
@@ -23,24 +21,39 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Please make sure you've already installed Truffle and enabled the MetaMask extension in your browser.
+Mesa program runs on python so make sure your computer has the following dependencies. 
 
 ```
-* Truffle v5.1.26 (core: 5.1.26)
-* Solidity >= v0.5.16 (solc-js)
-* Node >= v12.16.3
-* Web3.js >= v1.2.7
-* Metamask Chrome extension (connected with Volta)
+- jupyter (Ipython interactive notebook)
+- matplotlib (Python’s visualization library)
+- mesa (this ABM library – if not installed)
+- numpy (Python’s numerical python library)
 ```
+### Installing required components and mesa
 
-Note: Please follow the [steps](https://energyweb.atlassian.net/wiki/spaces/EWF/pages/703201459/Volta+Connecting+to+Remote+RPC+and+Metamask) to connect Metamask with Volta.
+If you are not sure, mesa tutorial also provides a link where these can be downloaded
 
-###  Installing
+```
+$ pip install -r https://raw.githubusercontent.com/projectmesa/mesa/master/examples/boltzmann_wealth_model/requirements.txt
+```
+Also make sure to install mesa with this line of code
+
+```
+$ pip install mesa
+```
+This can be done directly from a terminal screen or python. However, for my exercise I am using Jupyter notebook. This allows to include graphs and other functions that can be presented into an easy to read document. 
+
+###  Installing additional software for cloning 
+
 Follow the steps below to have development environment running:
 1. Clone the repository:
 ```
 $ git clone https://github.com/olisystems/alf-transparency.git
 ```
+After this you should be able to work on the project and modify the program as needed. 
+
+COMENT:
+### Below this point I do not thing is needed for this program
 
 2. Change directory to `alf-transparency
 ` folder and install all requisite npm packages (as listed in `package.json`):
