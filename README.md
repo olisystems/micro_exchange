@@ -41,18 +41,18 @@ Also make sure to install mesa with this line of code
 ```
 $ pip install mesa
 ```
-This can be done directly from a terminal screen or python. However, for my exercise I am using Jupyter notebook. This allows to include graphs and other functions that can be presented into an easy to read document. 
+This can be done directly from a terminal screen or Python. However, for my exercise I am using Jupyter notebook. This allows to include graphs and other functions that can be presented into an easy to read document. 
 
 ###  Installing additional software for cloning 
 
 Follow the steps below to have development environment running:
-1. Clone the repository:
+Clone the repository:
 ```
 $ git clone https://github.com/olisystems/alf-transparency.git
 ```
 After this you should be able to work on the project and modify the program as needed. 
 
-COMENT:
+COMMENT:
 ### Below this point I do not thing is needed for this program
 
 2. Change directory to `alf-transparency
