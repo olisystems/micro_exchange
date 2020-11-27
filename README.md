@@ -83,5 +83,3 @@ Pull requests are welcome.
 4. Commit the changes: `git commit -m "add commit message"`
 5. `push` to the branch: `git push origin new-feature-branch`
 6. Submit a `pull request`.
-
-HELLOOOOOOOOOOOOOOOOOOOOOOOOOOOO
