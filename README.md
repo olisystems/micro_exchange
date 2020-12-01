@@ -43,3 +43,5 @@ Clone the repository:
 $ git clone https://github.com/olisystems/micro_exchange.git
 ```
 After this you should be able to work on the project and modify the program as needed. 
+
+Now we are on testing mode
